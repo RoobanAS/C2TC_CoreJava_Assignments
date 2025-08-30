@@ -1,5 +1,8 @@
-package Assignment6;
+package assignment6;
 
-public class InvalidAmountException {
+public class InvalidAmountException extends Exception{
+	public InvalidAmountException(String message) {
+		super(message);
+	}
 
 }
